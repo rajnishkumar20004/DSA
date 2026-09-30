@@ -11,5 +11,5 @@ function ReverseString(s){
     }
     return arr.join("");
 };
-res = ReverseString("rajnish");
+res = ReverseString("rajinsh");
 console.log(res);
