@@ -1,0 +1,19 @@
+//Approach 01 (by using hash tables);
+
+var singleNumber = function (nums) {
+    let hash = {};
+    for (i = 0; i < nums.length; i++) {
+        if (!hash[nums[i]]) {
+            hash[nums[i]] = 1;
+        } else {
+            hash[nums[i]]++;
+        }
+    }
+    for (i = 0; i < nums.length; i++) {
+        if (hash[nums[i]] == 1) {
+            return nums[i];
+        }
+    }
+};
+
+// Approach 02 
