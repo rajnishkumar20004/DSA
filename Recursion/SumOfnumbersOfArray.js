@@ -7,3 +7,4 @@
  let arr=[5,3,2,10,1];
  let res = sum(arr.length -1 );
  console.log(res);
+ 
